@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+body {
+    background-color: #ffffff;
+}
+
+hrml {
+    scroll-behavior: smooth;
+}
+
+nav {
+   
+    display: flex;
+    justify-content: space-between;
+    background-color: #14213D;
+    padding: 0 50px;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+#rishi-name{
+    font-size: 25px;
+}
+ a{
+    text-decoration: none;
+    font-weight: medium;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.icons a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    color: white;
+    transition: 0.5s;
+
+}
+
+a:hover {
+    color: #FCA311;
+}
+
+.icons a:last-child {
+
+    background-color: #FCA311;
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.icons a span {
+    margin-left: 5px;
+}
+
+
+/* information  */
+
+.info {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    margin: 150px 0;
+    margin-bottom: 100px;
+    gap: 30px;
+
+
+}
+
+.info .name {
+    flex: 5;
+    /* padding: 0 150px; */
+}
+
+.info .photo {
+    flex: 2;
+    display: flex;
+    justify-content: right;
+    /* padding-left: 150px; */
+}
+
+.info h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+
+}
+
+.info .photo img {
+
+    width: 400px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 20px  black; */
+    background-color: transparent;
+    transition: 0.5s;
+
+}
+
+.info .photo img:hover {
+    /* filter: drop-shadow(0px 0px 50px rgb(228, 4, 4)); */
+    filter: drop-shadow(0px 0px 50px #FCA311);
+
+}
+.info .name p{
+    font-weight: 400;
+    font-size: 15px;
+}
+/* button resume and hire me  */
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.button a {
+    
+    text-decoration: none;
+    font-weight: 500;
+
+   color: white;
+  
+}
+
+.button .buttons:hover{
+    background-color: #14213D;
+    box-shadow: 1px 1px 5px black;
+    
+}
+.button .buttons{
+    background-color: #FCA311;
+    /* height: 30px; */
+    width: 10%;
+    text-align: center;
+    margin-left: 80px;
+    padding: 10px ;
+    border-radius: 5px;
+    transition: 0.8s;
+
+
+}
+
+
+
+/* skills */
+
+.skills {
+    padding: 0 50px;
+    margin: 100px;
+
+}
+
+.skills h3 {
+    font-size: 30px;
+    margin-bottom: 30PX;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FCA311;
+
+}
+
+.skills .skills_about p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills .skills-icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.skills .skills-icon .skills-con {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid rgb(238, 206, 147);
+    border-radius: 10px;
+    gap: 10px;
+
+}
+
+.skills .skills-icon .skills-con:last-child {
+
+    font-size: 80%;
+}
+
+
+
+/* about me  */
+
+.about{
+    padding: 48px 20px;
+    margin-top: 30px;
+    margin: 0 138px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-head
+{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #FCA311;
+}
+
+.about img{
+    height: 500px;
+    padding-right: 50px;
+    /* border-radius: 5px; */
+}
+
+.about .about-me {
+    flex: 5;
+    justify-content: right;
+}
+
+.about .about-photo  img {
+    flex: 2;
+    display: flex;
+    justify-content: left;
+}
+
+/* project  */
+
+
+
+
+
+/* contact  */
+.contact{
+    padding: 0 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.contact h3{
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.contact .connect form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins';
+    border-radius: 50px;
+   
+
+
+}
+
+.contact .connect #name, #email{
+    height: 40px;
+    text-align: left;
+    padding: 20px;
+    font-weight: normal;
+
+    color: #000000;
+    background-color: rgb(243, 243, 243);
+   border-radius: 3px;
+   font-family: 'Poppins';
+ border: 2px solid black;
+ transition: 0.3s;
+
+
+
+}
+
+.contact .connect #name:hover, #email:hover{
+
+    border: 2px solid blue;
+}
+.contact .connect #name:active, #email:active{
+
+    border: 2px solid blue;
+}
+.contact .connect textarea{
+    text-align: left;
+    padding: 20px;
+    outline: none;
+    resize: none;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    font-family: 'Poppins';
+    
+
+}
+
+.contact .connect textarea:hover{
+    border: 2px solid blue;
+}
+
+
+
+.contact .connect button{
+
+    width: 100%;
+    height: 50px;
+    background-color: rgba(1, 94, 255, 0.94);
+    color: white;
+    font-family: 'Poppins';
+    
+}
+.contact .connect button:hover{
+    background-color: rgb(5, 83, 217);
+}
+
+
+@media (max-width: 700px) {
+
+    .info h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+
+    /* navbar  */
+
+    nav {
+        padding: 0 50px;
+    }
+
+    .icons a {
+        font-size: 22px;
+    }
+
+    .icons a:last-child {
+        background-color: transparent;
+        color: #FCA311;
+        /* padding: 0; */
+    }
+
+    nav a span {
+        display: none;
+    }
+
+
+    .info {
+        flex-direction: column-reverse;
+        padding: 0 50px;
+    }
+
+    .info .photo img {
+        width: 250px;
+    }
+
+
+    .about{
+        flex-direction: column-reverse;
+
+
+    }
+
+    .about .about-photo img{
+        width: 200px;
+            margin: 0 50px;
+
+    }
+/* button */
+
+.button{
+ 
+    margin-right: 50px;
+}
+.button .buttons a{
+    font-size: 15px;
+
+}
+.button .buttons {
+    width: 20%;
+
+}
+
+.about .about-photo img{
+    width: 100%;
+    margin-top: 0100px;
+    align-items: center;
+    
+
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+    header nav {
+        padding: 0 17px;
+    }
+
+    nav h2 {
+        font-size: 20px;
+    }
+
+    .icons a i {
+        font-size: 70%;
+
+    }
+
+
+
+    .icons a:last-child {
+        background-color: transparent;
+        color: black;
+        /* padding: 0; */
+    }
+
+    nav a span {
+        display: none;
+    }
+
+
+
+    .info {
+        pad: 0 20px;
+
+    }
+
+    .info h2 {
+        font-size: 12px;
+    }
+
+    .info p {
+        font-size: 8px;
+        text-align: justify;
+    }
+
+}
+
+
+@media (max-width: 850px) {
+
+  
+
+    /* info  */
+
+    .info {
+        pad: 0 50px;
+
+    }
+
+    .info h2 {
+        font-size: 30px;
+    }
+
+    .info p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+
+    /* skills \ */
+    .skills {
+
+
+        padding: 0 50px;
+        margin: 10px;
+    }
+
+
+    /* about  */
+    .about{
+        padding: 0 50px;
+        margin: 0 10px;
+    }
+
+    .about-head{
+        font-size: 30px;
+    }
+
+    
+    .about p{
+        font-size: 15px;
+        
+    }
+}
